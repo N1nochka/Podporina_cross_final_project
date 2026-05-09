@@ -1,0 +1,22 @@
+// api/donationsApi.ts
+// API для роботи з донаціями (Redux)
+
+export const API_URL = 'https://jsonplaceholder.typicode.com/posts';
+
+/**
+ * Отримує список тестових донацій з API
+ */
+export const fetchTestDonations = async () => {
+  try {
+    const response = await fetch(API_URL);
+    if (!response.ok) {
+      throw new Error(`HTTP помилка: ${response.status}`);
+    }
+    const data = await response.json();
+    // Повертаємо перші 5 записів для тестових донацій
+    return data.slice(0, 5);
+  } catch (error) {
+    console.error('Помилка запиту до API:', error);
+    throw error;
+  }
+};

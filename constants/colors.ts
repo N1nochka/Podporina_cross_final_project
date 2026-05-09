@@ -1,0 +1,16 @@
+export const COLORS = {
+  primary: '#D32F2F',
+  primaryDark: '#B71C1C',
+  white: '#FFFFFF',
+  black: '#000000',
+  textPrimary: '#212121',
+  textSecondary: '#757575',
+  textLight: '#9E9E9E',
+  textOnPrimary: '#FFFFFF',
+  border: '#E0E0E0',
+  cardBackground: '#FFFFFF',
+  progressBackground: '#FFCDD2',
+  progressFill: '#D32F2F',
+  success: '#2E7D32',
+  shadow: '#000000',
+};
