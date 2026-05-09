@@ -1,6 +1,3 @@
-Вибачаюсь! Ось **виправлений README.md** з правильними шляхами до файлів:
-
-```markdown
 # 🩸 PlasmaDonate — Фінальний проєкт (Cross-Platform Development)
 
 > **Автор:** Подпоріна Ніна  
